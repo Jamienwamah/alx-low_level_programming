@@ -1,20 +1,33 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ *  *main -> assign a random numer to the variable n each time it is executed
+ *
+ *  *and print the last digit of the number stored in the variable n
+ *
+ *  *Return: Always 0 (success)
+ *
+ */
+
 int main(void)
+
 {
 	int n;
 
-	srand(time(0));
+	        srand(time(0));
+	
 	n = rand() - RAND_MAX / 2;
-        printf("Enter a number\n");
-	scanf("%d", &number);
-	if(number>=0);
-		printf("%d is a positive number\n", number);
-	else
-		printf("%d is a negative number\n", number)
-	/* your code goes there */
+
+	if (n > 0)
+		printf("%d is positive\n", n);
+	if (n == 0)
+		printf("%d is zero\n", n);
+	if (n < 0)
+	{
+		printf("%d is negative\n", n);
+	}
+
 	return (0);
 }
