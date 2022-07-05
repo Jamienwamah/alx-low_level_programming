@@ -1,5 +1,5 @@
 int _putchar(char c);
-void print_alphabet(void);
+/*void print_alphabet(void);
 void print_alphabet(void);
 int -islower(int c);
 int -isalpha(int c);
@@ -11,3 +11,4 @@ void times_table(void);
 int add(int a, int b);
 void print_times_table(int a);
 void putformat(int);
+*/
