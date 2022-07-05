@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main"
+#include "main.h"
 
 /**
  *print_alphabet - function that prints alphabet
@@ -17,6 +17,4 @@ void print_alphabet(void)
 	_putchar (letter);
 	}
 	_putchar (10);
-	
-	return (0);
 }
