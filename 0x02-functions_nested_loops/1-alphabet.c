@@ -2,8 +2,8 @@
 #include "main"
 
 /**
- *print_alphebet - function that prints alphebet
- *It prints in lowercase
+ *print_alphabet - function that prints alphabet
+ *Description: It prints in lowercase
  *
  *Return: Always 0 (Success)
  */
@@ -17,5 +17,6 @@ void print_alphabet(void)
 	_putchar (letter);
 	}
 	_putchar (10);
+	
 	return (0);
 }
