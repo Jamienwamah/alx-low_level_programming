@@ -1,7 +1,7 @@
 int _putchar(char c);
 void print_alphabet(void);
-/*void print_alphabet(void);
-int -islower(int c);
+void print_alphabet(void);
+/*int -islower(int c);
 int -isalpha(int c);
 int print_sign(int n);
 int _abs(int r);
