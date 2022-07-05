@@ -1,7 +1,10 @@
-#include <stdio.h>
+#include <unistd.h>
+#include "main.h"
 
 /**
- **main - check the code
+ **main - check description
+ *
+ **Description: It prints _putchar followed by a new line
  *
  **Return: Always 0 (Success)
  *
@@ -9,7 +12,13 @@
 
 int main(void)
 {
-printf('/'_putchar\n');
+	char nord(8) = "_putchar";
+	int i;
 
-return (0);
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(word[i]);
+	}
+	_putchar('\n');
+	return (0);
 }
