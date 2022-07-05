@@ -3,7 +3,7 @@
 
 /**
  * print_alphabet: Function print 10 times the alphabet
- * Description: It prints in lowercase followed by a new line
+ * Description: It prints in lowercase followed by new line 
  * Return: Always 0 (Success)
  *
  */
