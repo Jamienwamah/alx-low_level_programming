@@ -7,20 +7,26 @@
  */
 int main(void)
 {
-	int i;
-	long int fibonacci[50];
+	int count = 2;
+	long int i = 1, j = 2;
+	long int k;
 
-	fibonacci[0] = 1;
-	fibonacci[1] = 2;
-	printf("%ld, %ld, ", fibonacci[0], fibonacci[1]);
-
-	for (i = 2; i < 50; i++)
+	printf("%lu, ", i);
+	while (count <= 50)
 	{
-		fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
-		if (i == 49)
-			printf("%d\n", fibonacci[i]);
+		if (count == 50)
+		{
+			printf("%lu\n", j);
+		}
 		else
-			printf("%ld, ", fibonacci[i]);
+		{
+			printf("%lu, ", j);
+		}
+
+		k = j;
+		j += i;
+		i = k;
+		count++;
 	}
 
 	return (0);
