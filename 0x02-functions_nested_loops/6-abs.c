@@ -1,16 +1,11 @@
 #include "main.h"
 
 /**
- *_abs-prints the absolute value of an integer
- *@i: number targeted
- *Return: Always 0 (Success)
+ *_abs - prints the absolute value of an integer
+ *@i: The integer to be compute with
+ *Return: The absolute value of i
  */
 int _abs(int i)
 {
-	if (i > 0)
-	return (i);
-	else if (i < 0)
-	return (-1);
-	else
-	return (0);
+	return (i < 0 ? i * -1 : i);
 }
