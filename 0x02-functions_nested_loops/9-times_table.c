@@ -3,6 +3,8 @@
 /**
  *time_table - prints the 9 times table
  *
+ *Description: must start with 0.
+ *
  *Return: Always 0 (success)
  *
  */
