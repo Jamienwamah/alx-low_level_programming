@@ -2,6 +2,7 @@
 
 /**
  *print_numbers - Prints the numbers, from 0 to 9, followed by a new line
+ *using _putchar twice
  */
 void print_numbers(void)
 {
