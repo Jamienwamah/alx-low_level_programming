@@ -2,7 +2,7 @@
 
 /**
  *int _strlen - function returns the length of a string
- *@l: Length of a string
+ *@s: Length of a string
  *
  *Return: The length of the string
  */
