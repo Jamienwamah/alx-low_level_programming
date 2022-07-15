@@ -2,7 +2,7 @@
 
 /**
  *infinite_add - adds two numbers.
- *@n1: First number 
+ *@n1: First number
  *@n2: Second number
  *@r: result buffer
  *@size_r: result buffer size
