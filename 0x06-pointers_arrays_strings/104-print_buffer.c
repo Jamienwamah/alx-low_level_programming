@@ -10,7 +10,7 @@
  */
 void print_line(char *c, int s, int l)
 {
-	int i, k;
+	int j, k;
 
 	for (j = 0; j <= 9; j++)
 	{
@@ -48,7 +48,7 @@ void print_buffer(char *b, int size)
 		}
 		else
 		{
-			print_line(, size % 10 - 1, i);
+			print_line(b, size % 10 - 1, i);
 		}
 		putchar('\n');
 	}
