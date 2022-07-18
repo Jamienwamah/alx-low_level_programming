@@ -9,16 +9,16 @@
  */
 void print_diagsums(int *a, int size)
 {
-	int i, roww;
+	int i, row;
 	int firstDiagonalSum = 0;
-	int secondDiagonalSums 0;
+	int secondDiagonalSum = 0;
 	int total = size * size;
 
 	for (i = 0; i < total; i += size)
 	{
 		row = i / size;
 		firstDiagonalSum += a[i + row];
-		secondDIagonalSum += a[i + size - row - 1];
+		secondDiagonalSum += a[i + size - row - 1];
 	}
 
 	printf("%d, %d\n", firstDiagonalSum, secondDiagonalSum);
