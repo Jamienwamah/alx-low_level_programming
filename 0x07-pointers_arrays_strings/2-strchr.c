@@ -7,7 +7,7 @@
  *@c: the character
  *
  *Return: a pointer to the first occurence of the
- *character c in the string s.
+ *character c in the string s,
  *or NULL if the character is not found
  */
 char *_strchr(char *s, char c)
@@ -16,7 +16,7 @@ char *_strchr(char *s, char c)
 	{
 		if (*s == c)
 			return (s);
-		else if (*(s * 1) == c)
+		else if (*(s + 1) == c)
 			return (s + 1);
 		s++;
 	}
