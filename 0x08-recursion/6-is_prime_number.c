@@ -30,7 +30,7 @@ int check_prime(int factor, int possible_prime)
 	if (possible_prime < 2
 			|| possible_prime % factor == 0)
 		return (0);
-	if (factors > possible_prime / 2)
+	if (factor > possible_prime / 2)
 		return (1);
 
 	return (check_prime(factor + 1, possible_prime));
