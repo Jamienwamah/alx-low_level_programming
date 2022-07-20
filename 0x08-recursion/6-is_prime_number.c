@@ -23,6 +23,8 @@ int is_prime_number(int n)
  *number using 'factor'
  *@factor: factor to check
  *@possible_prime: a possible prime number,
+ *
+ *Return: 1 if 'possible_prime' is a prime number,
  *otherwise 0
  */
 int check_prime(int factor, int possible_prime)
