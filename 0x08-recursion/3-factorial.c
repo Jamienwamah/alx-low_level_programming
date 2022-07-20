@@ -2,7 +2,7 @@
 
 /**
  *factorial - returns the factorial of a given number
- *@n: The number lower than 0
+ *@n: The number
  *
  *Return: The factorial of n
  */
