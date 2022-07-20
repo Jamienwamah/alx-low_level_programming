@@ -6,7 +6,7 @@ char *wildcard(char *, char *);
 /**
  *wildcmp - comapres two strings
  *@s1: first string
- *s2: second string, may contain wildcard *
+ *@s2: second string, may contain wildcard *
  *
  *Return: 1 if match, 0 if not
  */
