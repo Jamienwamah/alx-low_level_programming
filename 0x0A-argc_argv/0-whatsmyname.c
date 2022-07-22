@@ -1,13 +1,13 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  *main - prints its name, followed by a new line.
- *@argc: argument count
- *@argv: arguments
- *
- *Return: 0
+ *@argc: number of arguments
+ *@argv: array of pointer to the string
+ *Return: return 0
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[j])
 {
 	(void)argc;
 	printf("%s\n", argv[0]);
