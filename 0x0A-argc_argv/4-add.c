@@ -3,8 +3,8 @@
 
 /**
  *main - adds positive numbers.
- *argc: argument count
- *argv: arguments
+ *@argc: argument count
+ *@argv: arguments
  *
  *Return: 0
  */
