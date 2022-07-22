@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 
 /**
  *main - adds positive numbers.
@@ -22,6 +22,7 @@ int main(int argc, char **argv)
 	for (i = 1; argv[i]; i++)
 	{
 		n = strtol(argv[i], &flag, 10);
+		if (*flag)
 		{
 			printf("Error\n");
 			return (1);
