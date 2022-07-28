@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- *_isdigit - check if character is digit 
+ *_isdigit - check if character is digit
  *@c: the character to check
  *
  *Return: 1 if digit, 0 otherwise
@@ -47,7 +47,7 @@ char *big_multiply(char *s1, char *s2)
 		printf("Error\n"), exit(98);
 	while (a--)
 		r[a] = 0;
-	
+
 	for (l1--; l1 >= 0; l1--)
 	{
 		if (!_isdigit(s1[l1]))
