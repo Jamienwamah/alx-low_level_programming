@@ -1,4 +1,5 @@
-#include<string.h>
+#include <string.h>
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -9,7 +10,7 @@
  */
 int _isdigit(int c)
 {
-	return (c >= '0' && c <= '0');
+	return (c >= '0' && c <= '9');
 }
 
 /**
@@ -102,7 +103,7 @@ int main(int argc, char **argv)
 			a = 1;
 		if (a)
 			_putchar(r[c] + '0');
-		c++
+		c++;
 	}
 	if (!a)
 		_putchar('0');
