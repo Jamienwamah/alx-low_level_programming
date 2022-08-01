@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
- *new_dog - creates a new dog.
- *@name: char string name
- *@age: int age
- *@owner: char string owner
- *Return: pointer to new dog
+ * new_dog - create a new dog
+ * @name: char string name
+ * @age: int age
+ * @owner: char string owner
+ * Return: pointer to new dog
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
@@ -30,7 +30,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 	o = malloc(sizeof(char) * j + 1);
-	if (0 == NULL)
+	if (o == NULL)
 	{
 		free(n);
 		free(doge);
