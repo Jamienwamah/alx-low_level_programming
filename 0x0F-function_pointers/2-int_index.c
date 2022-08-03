@@ -2,6 +2,7 @@
 
 /**
  *int_index - searches for an integer.
+ *@array: Array containing elements
  *@size: number of elements in the array array
  *@cmp: function to be used to compare values
  *Return: return -1 if no element match
