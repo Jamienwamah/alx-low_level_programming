@@ -12,24 +12,33 @@
 size_t print_list(const list_t *h)
 {
 	list_t *head;
-	list_t *tail;
-	list_t hello = {"world!", 5, NULL}
-
-	new->str = strdup("Hello");
-	new->len = 5;
-	new->next = head;
-	head = new;
-	n = print_list(head);
-	printf("-> %lu elements\n", n);
-
-	printf("\n");
-	free(new->str);
-	new->str = NULL;
-	n = print_list(head);
-	printf("-> %lu elements\n", n);
-
-	free(new);
-	return (0);
+	list_t *new;
+	list_t hello = {"World", 5, NULL};
+	size_t n;
+	typedef struct Element Element;
+	
+	struct Element
+	{
+		int number;
+		Element *next;
+	};
+	
+	Element *addnewN(int number)
+	{
+		Element *newN = (Element*)malloc(sizeof(Element));
+		
+		newN->number = number;
+		newN->next = NULL;
+		
+		return newN;
+	}
+	
+	Element *add_on_beginning(Element *head, Element *newN)
+	{
+		newN->next = head;
+		
+		return head;
+	}
 }
 
 /**
