@@ -9,7 +9,7 @@
 int clear_bit(unsigned long int *n, unsigned int index)
 {
 	unsigned long int i = 1, len = 0;
-	
+
 	if (!n)
 		return (-1);
 	while (len++ < index)
