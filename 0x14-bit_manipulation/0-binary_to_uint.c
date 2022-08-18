@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * binary_to_int - converts a binary to int
+ * binary_to_uint - converts a binary to int
+ * where b is pointing to a string of 0 and 1 chars
  * @s: pointer to binary chars
  * Return: int value or zero
  */
